@@ -1,5 +1,5 @@
 # Squat counter
-[Live demo](https://armandpl.com/squat_counter/index.html)
+[Live demo](https://squat.armandpl.com)
 
 This a little demo using Tensorflow.js, PoseNet and a KNN classifier that will count how many squats you do.
 
