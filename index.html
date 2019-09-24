@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+</head>
+
+<body>
+    <div id="console"></div>
+
+    <video autoplay playsinline muted width="500" height="500" id="webcam"></video>
+
+    <button onclick="predictPose()">
+        CAPTURE
+    </button>
+
+    <h1 id="up">
+
+    </h1>
+
+    <h1 id="down">
+
+    </h1>
+
+    <h1 id="count">
+        
+    </h1>
+
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<style>
+video{
+    width: 100%;
+}
+</style>
